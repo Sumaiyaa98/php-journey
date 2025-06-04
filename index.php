@@ -10,7 +10,7 @@ echo("learning php basics");
 
 //variables in php
 // just like in other languages, variables are also similar in php as well
-// but we don't have to declare the type of the variable that we do in js, we can directly declare them by using $ sign
+// but we don't have to declare the type of the variable that we do in c++ and other lng, we can directly declare them by using $ sign
 
 //ex
 echo "<br>Variables in PHP<br>";
