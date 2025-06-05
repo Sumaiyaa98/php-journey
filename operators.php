@@ -35,4 +35,7 @@ var_dump($a<>$b); /*or*/  var_dump($a!=$b);
 $n = 'a';
 echo ++$n;
 
+echo'<br>';
+
+
 ?>
