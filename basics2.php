@@ -23,6 +23,8 @@ echo Name;
 echo "<br>";
 //to get the info or to know the datatype of a variable, we use var_dump() funct
 echo var_dump(Name);
+//or to just find out the type of variable we use gettype()
+echo gettype(Name);
 
 
 
@@ -42,8 +44,8 @@ echo var_dump(Name);
         
         
 //🔹 Example of a Resource
-$file = fopen("example.txt", "r");  // Opens a file for reading
-var_dump($file);
+// $file = fopen("example.txt", "r");  // Opens a file for reading
+// var_dump($file);
 
 
 //🔸 Output:
@@ -67,4 +69,17 @@ You're usually working with a resource.**/
 //array datatype
 $arr = ["alex","john","carlos",20];
 echo var_dump($arr);
+
+
+
+
+// Type casting in PHP means converting one data type to another manually.
+
+// Here, we are converting a string '5' into an integer using (int)
+$x = (int)'5';
+
+// var_dump() shows the data type and value of the variable.
+// So this will output: int(5)
+echo var_dump($x);
+
 ?>
