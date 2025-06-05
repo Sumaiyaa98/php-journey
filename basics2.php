@@ -9,14 +9,23 @@
 $name = "alex";
 $name = "maria";
 echo $name;
-
 //if we use the const keyword before name then we won't be able to initialize it again and it will shows an error
 
 
-//another way to declare constant in php
+
 echo "<br>";
+//another way to declare constant in php
 define("Name", "Mike");
+// define("Name", "Jack"); //shows an error
 echo Name;
 
 
+echo "<br>";
+//to get the info or to know the datatype of a variable, we use var_dump() funct
+echo var_dump(Name);
+
+
+
+//datatypes
+//similar datatypes,except one, name -> resource
 ?>
